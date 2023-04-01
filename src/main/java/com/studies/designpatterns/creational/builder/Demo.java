@@ -1,4 +1,12 @@
 // Code taken from the site: https://refactoring.guru
+/*
+	Use the Builder pattern to get rid of a “telescoping constructor”.
+
+	Use the Builder pattern when you want your code to be able to create different
+	representations of some product (for example, stone and wooden houses).
+
+	Use the Builder to construct Composite trees or other complex objects.
+*/
 package com.studies.designpatterns.creational.builder;
 
 import com.studies.designpatterns.creational.builder.builders.CarBuilder;
